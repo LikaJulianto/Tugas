@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bootstrap demo</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="DenjiPorto.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom border-secondary border-2">
+			<div class="container-fluid">
+				<a class="navbar-brand text-white" href="#">ANTO</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#hero">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Recent Work</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section id="hero">
+			<div class="hero container-fluid2 text-white d-flex align-items-center justify-content-center">
+				<div>
+        			<h1 class="novlow">Halo,</h1>
+        			<h1 class="novlow">Nama Saya</h1>
+        			<h1 class="novlow nam"><span>Licha Julianto</span></h1>
+					<a href="#" class="btn btn-outline-light">Portofolio</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio-section" class="page bg-style1">
+            	<div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio">
+                                <!-- Begin page header-->
+                                <div class="page-header-wrapper">
+                                    <div class="container">
+                                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                            <h2>Recent Works</h2>
+                                            <div class="devider"></div>
+                                            <p class="subtitle">What im proud of</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End page header-->
+                                <div class="portfoloi_content_area" >
+                                    <div class="portfolio_menu" id="filters">
+                                        <ul>
+                                            <li class="active_prot_menu"><a href="#porfolio_menu" data-filter="*">all</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".websites">websites</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".webDesign" >web design</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".appsDevelopment">apps development</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".GraphicDesign">graphic design</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".responsive">responsive</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="portfolio_content">
+                                        <div class="row"  id="portfolio">
+                                            <div class="col-xs-12 col-sm-6 appsDevelopment">
+                                                <div class="portfolio_single_content">
+                                                    <img src="./gambar/Screenshot (150)copy2.png" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Skull Awesome</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 GraphicDesign">
+                                                <div class="portfolio_single_content">
+                                                    <img src="./gambar/Screenshot (151)copy2.png" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Photo Frame</a>
+                                                        <span>Subtitle</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
